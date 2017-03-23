@@ -19,10 +19,6 @@ environment:
     # - nodejs_version: 4
     #   test_suite: "kitchensink"
 
-# cache:
-#   - node_modules -> appveyor.cleanup-cache.txt
-#   - packages\react-scripts\node_modules -> appveyor.cleanup-cache.txt
-
 clone_depth: 50
 
 matrix:
